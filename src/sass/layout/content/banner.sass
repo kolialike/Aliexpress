@@ -1,0 +1,59 @@
+.banner
+	background: image-url("banner-bg.jpg") no-repeat center center
+	min-height: 350px
+	+breakpoint($break-550)
+		min-height: 183px
+.banner-label
+	float: left
+	margin-right: 20px
+	+breakpoint($break-768)
+		display: none
+.banner-text
+	display: block
+	padding-top: 110px
+	+breakpoint($break-767)
+		text-align: center
+		padding-top: 52px
+	+breakpoint($break-374)
+		padding-top: 35px
+	p
+		font-size: 60px
+		color: #fff
+		line-height: 64px
+		letter-spacing: 1px
+		font-weight: 100
+		+breakpoint($break-1500)
+			font-size: 50px
+		+breakpoint($break-1023)
+			font-size: 40px
+		+breakpoint($break-767)
+			font-size: 60px
+		+breakpoint($break-550)
+			font-size: 30px
+			line-height: 32px
+			letter-spacing: 0.5px
+
+	span 
+		display: block
+		font-size: 48px
+		line-height: 50px
+		font-weight: 100
+		padding-top: 3px
+		letter-spacing: 1.9px
+		+breakpoint($break-1500)
+			font-size: 32px
+		+breakpoint($break-1023)
+			font-size: 25px
+		+breakpoint($break-767)
+			font-size: 36px
+			+box-sizing(border-box)
+			padding: 0px 20px
+			line-height: 38px
+		+breakpoint($break-550)
+			padding-top: 7px
+			letter-spacing: 0.7px
+			font-size: 18px
+			line-height: 21px
+			padding: 0px 69px
+		+breakpoint($break-374)
+			padding: 0

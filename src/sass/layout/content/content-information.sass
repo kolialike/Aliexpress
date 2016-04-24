@@ -1,0 +1,53 @@
+.content-information
+	text-align: center
+	background: #444
+	.content-information-item
+		display: inline-block
+		width: 400/1746*100%
+		border-right: 2px solid #3c3c3c
+		+box-sizing(border-box)
+		padding: 56px 15px 5px
+		vertical-align: top
+		min-height: 240px
+		+breakpoint($break-767)
+			padding-bottom: 40px
+		&:first-child
+			border-left: 2px solid #3c3c3c
+			+breakpoint($break-767)
+				border: none
+				padding: 20px 0px
+				border-bottom: 1px solid #3c3c3c				
+		&:nth-child(2)
+			img 
+				margin-top: -12px
+		+breakpoint($break-1500)
+			width: 32%
+		+breakpoint($break-767)
+			min-height: 100%
+			width: 100%
+			border: none
+			border-bottom: 1px solid #3c3c3c
+
+		img 
+			display: block
+		p 
+			color: #fff
+			font-size: 25px
+			line-height: 28px
+			display: block
+			padding: 27px 0px 17px
+			+breakpoint($break-1350)
+				font-size: 20px
+			+breakpoint($break-1023)
+				font-size: 18px
+				padding: 15px 0px 10px
+				line-height: 20px
+		span 
+			display: block
+			color: #9b9b9b
+			font-size: 15px
+			line-height: 22px
+			+breakpoint($break-1350)
+				font-size: 14px
+			+breakpoint($break-1023)
+				line-height: 16px

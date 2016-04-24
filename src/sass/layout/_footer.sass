@@ -1,0 +1,115 @@
+#footer
+	background: #3c3c3c 
+	text-align: center
+	font-size: 0
+	line-height: 0
+.footer-information
+	border-bottom: 2px solid #444444
+	padding-bottom: 50px
+
+.footer-information-item
+	padding-top: 45px
+	display: inline-block
+	width: 305/1746*100%
+	vertical-align: top
+	text-align: left
+	+box-sizing(border-box)
+	padding-right: 20px
+	+breakpoint($break-1024)
+		width: 400/1746*100%
+	+breakpoint($break-767)
+		width: 50%
+	li 
+		margin-top: 12px
+		+breakpoint($break-767)
+			margin-top: 7px
+	h4 
+		color: #fff
+		font-size: 25px
+		line-height: 28px
+		margin-bottom: 15px
+		+breakpoint($break-767)
+			font-size: 18px
+			line-height: 22px
+	a 
+		color: #929292
+		font-size: 15px
+		line-height: 22px
+		+transition(0.2s)
+		+breakpoint($break-767)
+			font-size: 14px
+			line-height: 16px
+		&:hover
+			color: #000
+
+.partners
+	border-bottom: 2px solid #444444
+	text-align: center
+	padding: 30px 0px
+	.partners-item
+		display: inline-block
+		width: 310/1746*100%
+		vertical-align: top
+		text-align: left
+		+box-sizing(border-box)
+		padding-right: 20px
+		+breakpoint($break-1024)
+			width: 400/1746*100%
+		+breakpoint($break-767)
+			width: 49%
+		+breakpoint($break-550)
+			width: 100%
+	h4 
+		color: #fff
+		font-size: 25px
+		display: block
+		text-align: left
+		line-height: 28px
+		margin-bottom: 15px
+		margin-left: 14.6%
+		+breakpoint($break-1024)
+			margin-left: 4%
+		+breakpoint($break-767)
+			margin-left: 0
+			font-size: 18px
+			line-height: 22px
+	li
+		margin-top: 12px
+		+breakpoint($break-767)
+			margin-top: 7px
+	a 
+		color: #929292
+		font-size: 15px
+		line-height: 22px
+		+transition(0.2s)
+		+breakpoint($break-767)
+			font-size: 14px
+			line-height: 16px
+		&:hover
+			color: #000
+
+.footer-text
+	display: block
+	text-align: left
+	padding: 25px 0px 30px
+	+box-sizing(border-box)
+	padding-right: 50px
+	p 
+		margin-left: 14.6%
+		color: #929292
+		font-size: 15px
+		line-height: 22px
+		+breakpoint($break-1024)
+			margin-left: 4%
+		+breakpoint($break-767)
+			margin-left: 0
+			font-size: 14px
+
+.footer-top
+	position: absolute
+	bottom: 20px
+	right: 20px
+	z-index: 5
+	+transition(0.3s)
+	&:hover
+		+opacity(0.6)
